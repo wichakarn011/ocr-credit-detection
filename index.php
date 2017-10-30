@@ -13,6 +13,12 @@
 		<div class="col-sm-12 col-xs-12 text-center">
 			<h1>Web Credit OCR</h1>
 		</div>
+		<div class="col-sm-12 col-xs-12 text-center">
+			<video id="localVideo" autoplay muted playsInline></video>
+		</div>
+		<div class="col-sm-12 col-xs-12 text-center">
+			<button id="startButton">Start</button>
+		</div>
 		<br> <br>
 		<div class="col-sm-12 col-xs-12 text-center">
 			<h4>User Camera</h4>
@@ -21,5 +27,6 @@
 	<script src="javascript-jquery-3.2.1.min.js"></script>
 	<script src="javascript-popper.js"></script>
 	<script src="javascript-bootstrap.min.js"></script>
+	<script src="javascript-adapter.min.js"></script>
 </body>
 </html>
