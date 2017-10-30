@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style-bootstrap.min.css" />
 </head>
 <body>
-	
+	<?php include_once "fragment-menu.php"; ?>
 	<div class="container">
 		<br>
 		<div class="col-sm-12 col-xs-12 text-center">
