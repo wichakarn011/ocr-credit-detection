@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
 	<title>Web OCR Credit Detection</title>
 	<link rel="stylesheet" href="style-bootstrap.min.css" />
+	<link rel="stylesheet" href="pagestlye-index.php" />
 </head>
 <body>
 	<?php include_once "fragment-menu.php"; ?>
