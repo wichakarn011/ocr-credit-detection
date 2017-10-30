@@ -1,4 +1,5 @@
-<nav class="navbar navbar-dark bg-dark" >
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="#">
 		<img src="image-camera.png" width="30" height="30" class="d-inline-block align-top" alt="">
 		OCR Credit
@@ -9,7 +10,7 @@
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		<div class="navbar-nav">
 			<a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-			<a class="nav-item nav-link disabled" href="#">Browser Support</a>
+			<a class="nav-item nav-link " href="#">Browser Support</a>
 			<a class="nav-item nav-link" href="#">Special Thank</a>
 		</div>
 	</div>
