@@ -29,5 +29,7 @@
 	<script src="javascript-popper.js"></script>
 	<script src="javascript-bootstrap.min.js"></script>
 	<script src="javascript-adapter.min.js"></script>
+	
+	<script src="pagescript-index.js"></script>
 </body>
 </html>
