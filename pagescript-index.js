@@ -5,18 +5,18 @@ var startButton = document.getElementById('startButton');
 startButton.onclick = start;
 
 localVideo.addEventListener('loadedmetadata', function() {
-  trace('Local video videoWidth: ' + this.videoWidth +
+  alert('Local video videoWidth: ' + this.videoWidth +
     'px,  videoHeight: ' + this.videoHeight + 'px');
 });
 
 function gotStream(stream) {
-  trace('Received local stream');
+  alert('Received local stream');
   localVideo.srcObject = stream;
   localStream = stream;
 }
 
 function start() {
-  trace('Requesting local stream');
+  alert('Requesting local stream');
   startButton.disabled = true;
   navigator.mediaDevices.getUserMedia({
     audio: false,
